@@ -1,10 +1,10 @@
-#ifndef COUNTER_HPP
-#define COUNTER_HPP
-class Counter {
+#ifndef NODE_HPP
+#define NODE_HPP
+class Node {
     public:
         int count;
 
-        Counter(int initial);
+        Node(int initial);
 
         void increment();
         void decrement();

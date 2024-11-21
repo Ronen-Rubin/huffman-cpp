@@ -2,4 +2,4 @@
 rm -rf dist
 mkdir dist
 
-g++ ./src/main.cpp ./src/counter.cpp ./src/files.cpp -o ./dist/huffman.exe
+"C:\Program Files\LLVM\bin\clang++.exe" $(find src -name "*.cpp") -o ./dist/huffman.exe

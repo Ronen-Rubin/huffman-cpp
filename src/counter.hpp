@@ -1,12 +1,13 @@
 #ifndef COUNTER_HPP
 #define COUNTER_HPP
+
 class Counter {
-    public:
-        int count;
+  public:
+    int count;
 
-        Counter(int initial);
+    Counter(int initial);
 
-        void increment();
-        void decrement();
+    void increment();
+    void decrement();
 };
 #endif

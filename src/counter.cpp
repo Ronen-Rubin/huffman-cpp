@@ -1,13 +1,7 @@
 #include "counter.hpp"
 
-Counter::Counter(int initial): count(initial) {
-    
-}
+Counter::Counter(int initial) : count(initial) {}
 
-void Counter::increment () {
-    count++;
-}
+void Counter::increment() { count++; }
 
-void Counter::decrement () {
-    count--;
-}
+void Counter::decrement() { count--; }

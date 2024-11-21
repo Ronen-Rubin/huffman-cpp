@@ -1,3 +1,5 @@
+#ifndef COUNTER_HPP
+#define COUNTER_HPP
 class Counter {
     public:
         int count;
@@ -7,3 +9,4 @@ class Counter {
         void increment();
         void decrement();
 };
+#endif
